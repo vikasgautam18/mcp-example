@@ -3,3 +3,5 @@ mcp[cli]
 python-dotenv 
 openai
 psycopg2-binary
+flask
+requests
