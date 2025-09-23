@@ -129,8 +129,8 @@ async def main():
         
         # Prepare arguments with history and settings
         arguments = KernelArguments(
-            chat_history=history,
-            settings=settings
+            chat_history=str(history),
+            settings=settings,
         )
         
         try:
